@@ -1,0 +1,248 @@
+/**
+ * SJ4WEB Vendor PO - Supplier Summary Styles
+ * Shared styles for checkout and confirmation pages
+ */
+
+/* ========== CSS Variables (module scope) ========== */
+:root {
+    --sj4-color-primary: #172438;
+    --sj4-color-secondary: #3f4a63;
+    --sj4-color-taupe: #695c52;
+    --sj4-color-title: #181a29;
+    --sj4-color-text: #707070;
+    --sj4-color-border: #e0e1e5;
+    --sj4-color-bg: #f8f9fa;
+    --sj4-color-bg-warm: #f7f6f3;
+    --sj4-color-bg-item: #e9e4db;
+}
+
+/* ========== Main Container ========== */
+.sj4web-supplier-summary {
+    background: var(--sj4-color-bg);
+    border: 1px solid var(--sj4-color-border);
+    border-radius: 6px;
+    padding: 20px;
+    margin: 15px 0;
+}
+
+.sj4web-supplier-summary h4 {
+    margin: 0 0 10px 0;
+    color: var(--sj4-color-title);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+}
+
+/* ========== Summary Simple Mode ========== */
+.sj4web-summary-simple p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.sj4web-summary-simple p .text-muted {
+    font-size: 13px;
+    color: var(--sj4-color-text);
+}
+
+/* ========== Package Intro ========== */
+.package-intro {
+    margin: 0 0 15px 0;
+    font-size: 14px;
+    color: var(--sj4-color-title);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* ========== Toggle Button ========== */
+.toggle-shipments-detail {
+    color: var(--sj4-color-primary);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 13px;
+    padding: 6px 8px;
+    margin: -6px -8px;
+    min-height: 44px;
+}
+
+.toggle-shipments-detail > * {
+    color: var(--sj4-color-title);
+}
+
+.toggle-shipments-detail:hover > * {
+    color: #5c636a;
+}
+
+.toggle-shipments-detail:hover span.shippingexpand_text {
+    text-decoration: underline;
+}
+
+.toggle-shipments-detail .material-icons {
+    font-size: 18px;
+    transition: transform 0.3s;
+}
+
+.toggle-shipments-detail.active .material-icons {
+    transform: rotate(180deg);
+}
+
+/* ========== Packages Details Container ========== */
+.packages-details {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+/* Collapsible state (for carrier mode) */
+.packages-details.collapsible {
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.4s ease, opacity 0.3s ease, margin-top 0.4s ease;
+}
+
+.packages-details.collapsible.show {
+    max-height: 2000px;
+    opacity: 1;
+}
+
+/* ========== Package Item ========== */
+.package-item {
+    background: white;
+    border: 1px solid var(--sj4-color-border);
+    border-radius: 4px;
+    padding: 12px;
+}
+
+.package-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--sj4-color-border);
+}
+
+.package-header strong {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--sj4-color-title);
+    font-size: 14px;
+}
+
+.package-header .material-icons {
+    font-size: 18px;
+}
+
+.package-delay {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 13px;
+    color: var(--sj4-color-taupe);
+    font-weight: 500;
+}
+
+.package-delay .material-icons {
+    font-size: 16px;
+}
+
+/* ========== Package Items List ========== */
+.package-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.package-items li {
+    padding: 4px 0;
+    font-size: 13px;
+    color: var(--sj4-color-title);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.item-qty {
+    font-weight: 600;
+    color: var(--sj4-color-primary);
+    min-width: 30px;
+}
+
+.item-name {
+    word-break: break-word;
+    line-height: 1.4;
+    flex: 1;
+}
+
+.item-ref {
+    font-size: 11px;
+    color: var(--sj4-color-text);
+}
+
+/* ========== Responsive Mobile ========== */
+@media (max-width: 768px) {
+    .package-intro {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .toggle-shipments-detail {
+        font-size: 14px;
+        padding: 10px;
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+        background: var(--sj4-color-secondary);
+        border-radius: 4px;
+        min-height: 48px;
+    }
+
+    .toggle-shipments-detail > * {
+        color: var(--sj4-color-bg-warm);
+    }
+
+    .toggle-shipments-detail:hover > * {
+        color: #fff;
+    }
+
+    .package-items li {
+        padding: 10px 0;
+        display: grid;
+        align-items: start;
+        grid-template-columns: 40px 1fr;
+        gap: 10px;
+        border-bottom: 1px solid #f0f0f0;
+    }
+
+    .package-items li:last-child {
+        border-bottom: none;
+    }
+
+    .item-qty {
+        font-size: 14px;
+        background: var(--sj4-color-bg-item);
+        padding: 4px 8px;
+        border-radius: 4px;
+        text-align: center;
+        min-width: 40px;
+    }
+
+    .item-name {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .item-ref {
+        grid-column: 2;
+        font-size: 12px;
+        margin-top: 4px;
+        display: block;
+    }
+}

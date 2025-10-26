@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="1" approved="yes">
+                <source>Shipping Information</source>
+                <target>Shipping Information</target>
+            </trans-unit>
+            <trans-unit id="2" approved="yes">
+                <source>1 shipment</source>
+                <target>1 shipment</target>
+            </trans-unit>
+            <trans-unit id="3" approved="yes">
+                <source>%d shipments</source>
+                <target>%d shipments</target>
+            </trans-unit>
+            <trans-unit id="4" approved="yes">
+                <source>Delivery times:</source>
+                <target>Delivery times:</target>
+            </trans-unit>
+            <trans-unit id="5" approved="yes">
+                <source>Number of shipments</source>
+                <target>Number of shipments</target>
+            </trans-unit>
+            <trans-unit id="6" approved="yes">
+                <source>This order will be shipped in a single shipment.</source>
+                <target>This order will be shipped in a single shipment.</target>
+            </trans-unit>
+            <trans-unit id="7" approved="yes">
+                <source>Estimated Delivery Times</source>
+                <target>Estimated Delivery Times</target>
+            </trans-unit>
+            <trans-unit id="8" approved="yes">
+                <source>This order will be shipped in multiple separate shipments.</source>
+                <target>This order will be shipped in multiple separate shipments.</target>
+            </trans-unit>
+            <trans-unit id="9" approved="yes">
+                <source>This order will be shipped in %d separate shipments.</source>
+                <target>This order will be shipped in %d separate shipments.</target>
+            </trans-unit>
+            <trans-unit id="10" approved="yes">
+                <source>Shipment</source>
+                <target>Shipment</target>
+            </trans-unit>
+            <trans-unit id="11" approved="yes">
+                <source>detailed information available when choosing delivery method</source>
+                <target>detailed information available when choosing delivery method</target>
+            </trans-unit>
+            <trans-unit id="12" approved="yes">
+                <source>Hide details</source>
+                <target>Hide details</target>
+            </trans-unit>
+            <trans-unit id="13" approved="yes">
+                <source>Show details</source>
+                <target>Show details</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

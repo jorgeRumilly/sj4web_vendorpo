@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="fr" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="1" approved="yes">
+                <source>SJ4WEB - Vendor POs and Supplier Settings</source>
+                <target>SJ4WEB - Bons de Commande et Paramètres Fournisseurs</target>
+            </trans-unit>
+            <trans-unit id="2" approved="yes">
+                <source>Generate vendor purchase orders and manage supplier settings</source>
+                <target>Générer des bons de commande fournisseurs et gérer les paramètres des fournisseurs</target>
+            </trans-unit>
+            <trans-unit id="3" approved="yes">
+                <source>Are you sure you want to uninstall?</source>
+                <target>Êtes-vous sûr de vouloir désinstaller ?</target>
+            </trans-unit>
+            <trans-unit id="4" approved="yes">
+                <source>Vendor POs and Supplier Settings</source>
+                <target>Bons de Commande et Paramètres Fournisseurs</target>
+            </trans-unit>
+            <trans-unit id="5" approved="yes">
+                <source>Supplier ID</source>
+                <target>ID Fournisseur</target>
+            </trans-unit>
+            <trans-unit id="6" approved="yes">
+                <source>Supplier Name</source>
+                <target>Nom du Fournisseur</target>
+            </trans-unit>
+            <trans-unit id="7" approved="yes">
+                <source>Status</source>
+                <target>Statut</target>
+            </trans-unit>
+            <trans-unit id="8" approved="yes">
+                <source>Company</source>
+                <target>Entreprise</target>
+            </trans-unit>
+            <trans-unit id="9" approved="yes">
+                <source>Lead Time</source>
+                <target>Délai de Livraison</target>
+            </trans-unit>
+            <trans-unit id="10" approved="yes">
+                <source>Supplier Settings</source>
+                <target>Paramètres Fournisseur</target>
+            </trans-unit>
+            <trans-unit id="11" approved="yes">
+                <source>Supplier</source>
+                <target>Fournisseur</target>
+            </trans-unit>
+            <trans-unit id="12" approved="yes">
+                <source>Company Name</source>
+                <target>Nom de l'Entreprise</target>
+            </trans-unit>
+            <trans-unit id="13" approved="yes">
+                <source>Contact Name</source>
+                <target>Nom du Contact</target>
+            </trans-unit>
+            <trans-unit id="14" approved="yes">
+                <source>Address Line 1</source>
+                <target>Adresse Ligne 1</target>
+            </trans-unit>
+            <trans-unit id="15" approved="yes">
+                <source>Address Line 2</source>
+                <target>Adresse Ligne 2</target>
+            </trans-unit>
+            <trans-unit id="16" approved="yes">
+                <source>Postal Code</source>
+                <target>Code Postal</target>
+            </trans-unit>
+            <trans-unit id="17" approved="yes">
+                <source>City</source>
+                <target>Ville</target>
+            </trans-unit>
+            <trans-unit id="18" approved="yes">
+                <source>Phone</source>
+                <target>Téléphone</target>
+            </trans-unit>
+            <trans-unit id="19" approved="yes">
+                <source>e.g. 48-72h, 2-3 weeks</source>
+                <target>ex. 48-72h, 2-3 semaines</target>
+            </trans-unit>
+            <trans-unit id="20" approved="yes">
+                <source>Save</source>
+                <target>Enregistrer</target>
+            </trans-unit>
+            <trans-unit id="21" approved="yes">
+                <source>Configured</source>
+                <target>Configuré</target>
+            </trans-unit>
+            <trans-unit id="22" approved="yes">
+                <source>Not Configured</source>
+                <target>Non Configuré</target>
+            </trans-unit>
+            <trans-unit id="23" approved="yes">
+                <source>Supplier ID is required</source>
+                <target>L'ID du fournisseur est requis</target>
+            </trans-unit>
+            <trans-unit id="24" approved="yes">
+                <source>Settings already exist for this supplier</source>
+                <target>Les paramètres existent déjà pour ce fournisseur</target>
+            </trans-unit>
+            <trans-unit id="25" approved="yes">
+                <source>Vendor Purchase Orders</source>
+                <target>Bons de Commande Fournisseurs</target>
+            </trans-unit>
+            <trans-unit id="26" approved="yes">
+                <source>Invalid token</source>
+                <target>Token invalide</target>
+            </trans-unit>
+            <trans-unit id="27" approved="yes">
+                <source>Invalid action</source>
+                <target>Action invalide</target>
+            </trans-unit>
+            <trans-unit id="28" approved="yes">
+                <source>Missing order or supplier ID</source>
+                <target>ID de commande ou de fournisseur manquant</target>
+            </trans-unit>
+            <trans-unit id="29" approved="yes">
+                <source>Order not found</source>
+                <target>Commande introuvable</target>
+            </trans-unit>
+            <trans-unit id="30" approved="yes">
+                <source>Missing return or supplier ID</source>
+                <target>ID de retour ou de fournisseur manquant</target>
+            </trans-unit>
+            <trans-unit id="31" approved="yes">
+                <source>Order return not found</source>
+                <target>Retour de commande introuvable</target>
+            </trans-unit>
+            <trans-unit id="32" approved="yes">
+                <source>Products</source>
+                <target>Produits</target>
+            </trans-unit>
+            <trans-unit id="33" approved="yes">
+                <source>Total Qty</source>
+                <target>Qté Totale</target>
+            </trans-unit>
+            <trans-unit id="34" approved="yes">
+                <source>Actions</source>
+                <target>Actions</target>
+            </trans-unit>
+            <trans-unit id="35" approved="yes">
+                <source>products</source>
+                <target>produits</target>
+            </trans-unit>
+            <trans-unit id="36" approved="yes">
+                <source>Ready</source>
+                <target>Prêt</target>
+            </trans-unit>
+            <trans-unit id="37" approved="yes">
+                <source>Generate PO PDF</source>
+                <target>Générer le PDF BC</target>
+            </trans-unit>
+            <trans-unit id="38" approved="yes">
+                <source>Edit Settings</source>
+                <target>Modifier les Paramètres</target>
+            </trans-unit>
+            <trans-unit id="39" approved="yes">
+                <source>Purchase order PDFs contain product references, EAN13, MPN, and quantities only (no prices).
+                </source>
+                <target>Les PDFs de bon de commande contiennent uniquement les références produits, EAN13, MPN et
+                    quantités (pas de prix).
+                </target>
+            </trans-unit>
+            <trans-unit id="40" approved="yes">
+                <source>No physical products with suppliers found in this order.</source>
+                <target>Aucun produit physique avec fournisseurs trouvé dans cette commande.</target>
+            </trans-unit>
+            <trans-unit id="41" approved="yes">
+                <source>Purchase Order</source>
+                <target>Bon de Commande</target>
+            </trans-unit>
+            <trans-unit id="42" approved="yes">
+                <source>Order Reference</source>
+                <target>Référence Commande</target>
+            </trans-unit>
+            <trans-unit id="43" approved="yes">
+                <source>Order Date</source>
+                <target>Date Commande</target>
+            </trans-unit>
+            <trans-unit id="44" approved="yes">
+                <source>PO Date</source>
+                <target>Date BC</target>
+            </trans-unit>
+            <trans-unit id="45" approved="yes">
+                <source>Reference</source>
+                <target>Référence</target>
+            </trans-unit>
+            <trans-unit id="46" approved="yes">
+                <source>EAN13</source>
+                <target>EAN13</target>
+            </trans-unit>
+            <trans-unit id="47" approved="yes">
+                <source>Product</source>
+                <target>Produit</target>
+            </trans-unit>
+            <trans-unit id="48" approved="yes">
+                <source>MPN</source>
+                <target>MPN</target>
+            </trans-unit>
+            <trans-unit id="49" approved="yes">
+                <source>Quantity</source>
+                <target>Quantité</target>
+            </trans-unit>
+            <trans-unit id="50" approved="yes">
+                <source>This purchase order contains product references and quantities only. Please contact us for
+                    pricing information.
+                </source>
+                <target>Ce bon de commande contient uniquement les références produits et les quantités. Veuillez nous
+                    contacter pour les informations de prix.
+                </target>
+            </trans-unit>
+            <trans-unit id="51" approved="yes">
+                <source>Generated automatically by</source>
+                <target>Généré automatiquement par</target>
+            </trans-unit>
+            <trans-unit id="52" approved="yes">
+                <source>Return Slip</source>
+                <target>Bordereau de Retour</target>
+            </trans-unit>
+            <trans-unit id="53" approved="yes">
+                <source>Original Order</source>
+                <target>Commande Originale</target>
+            </trans-unit>
+            <trans-unit id="54" approved="yes">
+                <source>Return ID</source>
+                <target>ID Retour</target>
+            </trans-unit>
+            <trans-unit id="55" approved="yes">
+                <source>Return Date</source>
+                <target>Date de Retour</target>
+            </trans-unit>
+            <trans-unit id="56" approved="yes">
+                <source>Return Address</source>
+                <target>Adresse de Retour</target>
+            </trans-unit>
+            <trans-unit id="57" approved="yes">
+                <source>Returned Items</source>
+                <target>Articles Retournés</target>
+            </trans-unit>
+            <trans-unit id="58" approved="yes">
+                <source>Please use this return slip when sending back the products to the supplier.</source>
+                <target>Veuillez utiliser ce bordereau de retour lors du renvoi des produits au fournisseur.</target>
+            </trans-unit>
+            <trans-unit id="59" approved="yes">
+                <source>Email: %email%</source>
+                <target>E-mail : %email%</target>
+            </trans-unit>
+            <trans-unit id="60" approved="yes">
+                <source>Phone: %phone%</source>
+                <target>Tél : %phone%</target>
+            </trans-unit>
+            <trans-unit id="61" approved="yes">
+                <source>Display customer Email on pdf</source>
+                <target>Afficher l’e-mail du client sur le PDF</target>
+            </trans-unit>
+            <trans-unit id="62" approved="yes">
+                <source>Add customer email information in PO pdf</source>
+                <target>Ajouter l’adresse e-mail du client dans le PDF de commande fournisseur</target>
+            </trans-unit>
+            <trans-unit id="63" approved="yes">
+                <source>Display customer phone on pdf</source>
+                <target>Afficher le téléphone du client sur le PDF</target>
+            </trans-unit>
+            <trans-unit id="64" approved="yes">
+                <source>Add customer phone information in PO pdf</source>
+                <target>Ajouter le numéro de téléphone du client dans le PDF de commande fournisseur</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
