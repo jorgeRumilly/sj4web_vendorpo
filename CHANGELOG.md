@@ -16,7 +16,6 @@ et ce projet adhère au [Semantic Versioning](https://semver.org/lang/fr/).
 - Script de migration `upgrade-1.0.1.php` pour ajout des nouveaux champs
 - Affichage conditionnel basé sur la configuration et le nombre de colis
 - Composant réutilisable `packages_list.tpl` pour l'affichage des colis
-- Fichier `CLAUDE.md` pour documentation destinée à Claude Code
 - Fichier `README.md` avec documentation complète utilisateur
 - Fichier `CHANGELOG.md` pour suivi des versions
 

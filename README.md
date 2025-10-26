@@ -148,7 +148,6 @@ sj4web_vendorpo/
 ├── config.xml                        # Métadonnées
 ├── config_fr.xml                     # Métadonnées FR
 ├── logo.png                          # Logo du module
-├── CLAUDE.md                         # Documentation pour Claude Code
 ├── README.md                         # Ce fichier
 ├── CHANGELOG.md                      # Historique des versions
 │
