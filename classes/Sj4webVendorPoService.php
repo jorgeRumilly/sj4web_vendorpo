@@ -92,7 +92,7 @@ class Sj4webVendorPoService
             }
 
             $supplierId = (int) ($product['id_supplier'] ?: 0);
-            $supplierName = $product['supplier_name'] ?: 'No supplier';
+            $supplierName = (isset($product['supplier_name']) && $product['supplier_name'])  ?: 'No supplier';
 
             if (!isset($groupedProducts[$supplierId])) {
                 $groupedProducts[$supplierId] = [
